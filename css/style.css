@@ -1,0 +1,486 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color:#0F1722;  
+    font-size: 20px; 
+    line-height: 1.6;
+}
+::before
+::after{
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    margin: 0;
+}
+ .container{
+     width: 100%;
+     max-width:  1400px;
+     margin: 0 auto;
+ }
+ .intro{
+     width: 100%;
+     height: 100vh;
+     background:url("../img/foto1.png") center no-repeat;
+     background-size: cover;
+ }
+ .intro_title{
+     font-size: 150px;
+     font-weight: bold;
+     
+ }
+ 
+ .header{
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 1000;
+     padding-top:40;
+    
+ }
+ .header_logo{
+     margin-left: 0px;
+     margin-top: 40px;
+
+ }
+ .nav{
+     font-size: 20px;
+     text-transform: uppercase;
+     }
+ 
+    
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav_link:hover{
+    color: #E59A42;
+}
+ .header_inner{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+h1 {
+    margin-right:40px;
+    color: white;
+    font-size: 110px;
+    font-weight: 900;
+    text-align: right;
+    line-height: 90%;
+    padding-top: 200px;
+    padding-bottom:0px;
+    }
+
+
+p{
+    margin-right:40px;
+    color: white;
+    font-size:  40px ;
+    font-weight: regular;
+    text-align: right;
+    line-height: 90%;
+    padding-top: -30px;
+    padding-bottom: 0px;
+}
+
+
+
+.h2 {
+    color:#0F1722;  
+   margin-left:150px;
+    font-size: 70px;
+    font-weight: normal;
+    }
+
+   .btn{
+    background-color: #E59A42; /* Green */
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1170px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+     
+   }
+   .btn:hover{
+       background-color: #25b33d;
+       }
+       .block {
+        text-align: center;  /* выравнивание заголовка по центру обертки */
+        width: 80%;          /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+        margin: 0 auto;      /* выравнивание обертки по центру документа */
+        overflow: hidden; 
+       }
+
+
+
+       .title {
+        /* Чтобы спрятать часть линий, которые 
+        ** будут вылазить за пределы блока */
+        overflow: hidden;
+        /* Выравнивание заголовка по центру, 
+        ** можно использовать left, right */
+        text-align: left;
+        /* Тут можно добавить другие стили для заголовка */
+        font-size: 70px;
+        font-weight: normal;
+        color: #0F1722;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+    .h2 {
+        color: black;
+        font-size: 20px;
+        width: 600px;
+        margin-left: 60px;
+        padding-top: 50px;
+    }
+    
+    .img_1{
+        position: absolute;
+        left: 840px;
+        top: 980px;
+
+    }
+    .title_2 {
+        /* Чтобы спрятать часть линий, которые 
+        ** будут вылазить за пределы блока */
+        overflow: hidden;
+        /* Выравнивание заголовка по центру, 
+        ** можно использовать left, right */
+        text-align: left;
+        /* Тут можно добавить другие стили для заголовка */
+        font-size: 70px;
+        font-weight: normal;
+        color: #0F1722;
+        margin-left: 60px;
+        margin-top: 50px;
+        padding-top: 60px;
+        border-bottom:3px solid black ;
+    }
+
+.text{
+    position: absolute;
+      font-size: 16px;
+      text-align: right;
+      right: 100px;
+      top: 1510px;
+    }
+
+    .p_3{
+        position: absolute;
+        color: #E59A42;
+        text-align: left;
+        font-size: 40px;
+        padding-top: 220px;
+       margin-left: 60px;
+    }
+
+.p_4{
+    color: black;
+    font-size: 20px;
+   width: 300px;
+   text-align: left;
+   margin-top: 320px;
+   margin-left: 60px;
+   line-height: 30px;
+}
+.img_2{
+    position: absolute;
+    top: 1650px;
+    left: 500px;
+}
+
+.p_5{
+    position: absolute;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    top: 1650px;
+    font-size: 20px;
+    left: 1155px;
+    
+}
+.line{
+    
+    border-bottom: 3px solid black; /* Параметры линии */
+    width: 1400px;
+    margin-top: 60px;
+    margin-left: 60px;
+   }
+    
+   .p_6{
+    position: absolute;
+    color: #E59A42;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 60px;
+    padding-top: 210px;
+   }
+
+   .img_3{
+    position: absolute;
+    left: 500px;
+    top: 2150px;
+   }
+
+   .p_7{
+       color: black;
+       font-size: 20px;
+       width: 300px;
+       text-align: left;
+       line-height: 30px;
+       margin-top: 300px;
+       width: 400px;
+       margin-left: 60px;
+   }
+
+   .p_8{
+       color: black;
+       font-weight: bold;
+       text-align: right;
+       position: absolute;
+       font-size: 20px;
+       left: 1155px;
+       top: 2150px;
+   }
+   .line_1{
+    
+    border-bottom: 3px solid black; /* Параметры линии */
+    width: 1400px;
+    margin-top: 60px;
+    margin-left: 60px;
+   }
+
+   .p_9{
+    position: absolute;
+    color: #E59A42;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 60px;
+    padding-top: 240px;
+   }
+
+   .p_10{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 400px;
+    margin-left: 60px;
+    line-height: 30px;
+    margin-top: 340px;
+   }
+
+   .img_4 {
+    position: absolute;
+    left: 500px;
+    top: 2650px;
+   }
+
+   .p_11{
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    font-size: 20px;
+    left: 1155px;
+    top: 2660px;
+}
+   
+.line_3{
+    
+    border-bottom: 3px solid black; /* Параметры линии */
+    width: 1400px;
+    margin-top: 60px;
+    margin-left: 60px;
+   }
+
+   .p_12{
+    color: black;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: px;
+   }
+   .img_6{
+    position: absolute;
+    width: 626px;
+    height: 532px;
+    left: 50px;
+    top: 3408px;  
+   }
+
+   .p_13{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 550px;
+    margin-left: 80px;
+    line-height: 30px;
+    margin-top: 600px;
+   }
+
+   .img_7{
+    position: absolute;
+    right: 100px;
+    top: 3408px; 
+   }
+   .p_14{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 300px;
+    margin-left: 1090px;
+    line-height: 30px;
+    margin-top: -285px;
+   }
+
+   .img_8{
+    position: absolute;
+    right: 100px;
+    top: 3800px; 
+   }
+
+   .p_15{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 300px;
+    margin-left: 820px;
+    line-height: 30px;
+    margin-top: 500px;
+   }
+   .img_9{
+    position: absolute;
+        top: 4200px; 
+    right: 100px;  
+   }
+
+   .img_10{
+    position: absolute;
+    left: 80px;
+    top: 4200px;
+   }
+
+
+
+   .btn_2{
+       position: absolute;
+    background-color: #E59A42; /* Green */
+    border-radius: 5px;
+    color: white;
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+ font-size: 14px;
+ right: 100px;
+ top: 4500px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+    .btn_2:hover{
+        background-color: #25b33d;
+        }
+    .p_16{
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        text-align: left;
+        width: 500px;
+        margin-left: 70px;
+        line-height: 30px;
+        margin-top: 300px;
+       }
+       
+       h4{
+           position: absolute;
+           font-weight: normal;
+           font-size: 20px;
+           line-height: 30px;
+           text-align: left;
+           top: 4580px;
+           left: 80px;
+       }
+
+
+       .line_5{
+        position: absolute;
+        border-bottom: 3px solid black; /* Параметры линии */
+        width: 1400px;
+        top: 4797px ;
+        left: 80px;
+       }
+
+       h5{
+        position: absolute;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 30px;
+        top: 4800px;
+        left: 80px;
+     }
+     .vertical-line{
+         position: absolute;
+        width: 3px; /* Line width */
+        background-color: black; /* Line color */
+        height: 250px;
+        top: 4800px;
+        left: 600px;
+    
+      }
+
+      h6{
+          position:absolute ;
+          font-size: 20px;
+          font-weight: normal;
+          color: black;
+          top: 4860px;
+          right: 660px;
+      }
+
+      .p_20{
+        position:absolute ;
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        top: 4890px;
+        right: 320px;
+      }
+
+      .p_21{
+        position:absolute ;
+        font-size: 20px;
+        font-weight: normal;
+        color: black;
+        top: 4890px;
+        right: 100px;
+      }
+      .line_6{
+        position: absolute;
+        border-bottom: 3px solid black; /* Параметры линии */
+        width: 1400px;
+        top: 5050px ;
+        left: 80px;
+       }
